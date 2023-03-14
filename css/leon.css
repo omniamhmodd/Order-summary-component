@@ -1,0 +1,122 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media (min-width: 768px){
+    .main{
+        width: 750px;
+    }
+}
+@media (min-width:992px){
+    .main{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .main{
+        width: 1170px;
+    }
+}
+
+
+.main{
+   /* width: 450px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height:  100vh;
+   background-color:hsl(228, 100%, 93%) ;
+    
+    
+}
+body{
+    font-family: "work sans" , sans-serif;
+}
+
+.main .main2{
+   
+    background-color: rgb(255, 255, 255);
+   
+    /*position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 80px;*/
+  border-radius: 15px;
+   
+}
+.main .main2 img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+.main .main2 .mainn h2{
+    text-align: center;
+    font-weight: bold;
+}
+.main .main2 .mainn p{
+    text-align: center;
+    color: #a4a3a3;
+    
+
+}
+.main .main2 .mainn .main3{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 350px;
+    padding: 10px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color:rgb(236, 236, 253);
+    border-radius: 10px;
+}
+.main .main2 .mainn .main3 a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.main .main2 .mainn .btnn{
+    width: 350px;
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+    background-color: rgb(98, 98, 169);
+    border-radius: 10px;
+}
+.main .main2 .mainn .btnn a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px;
+    font-weight: bold;
+}
+.main .main2 .mainn .btnn2{
+    width: 350px;
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.main .main2 .mainn .btnn2 a{
+    text-decoration: none;
+    color: #000000;
+    padding: 14px;
+    font-weight: bold;
+}
+
+
+
+
+
